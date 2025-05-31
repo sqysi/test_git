@@ -91,16 +91,18 @@
 # for i in range(1, 10+1):
 #     print (a, "x", i ,"=", a*i)
 # 27 Viết chương trình in ra hình tam giác có độ cao h được nhập từ bàn phím
-a = int(input("Nhap a: "))
-khoangtrangngoai = a -1
-khoangtrangtrong = 0
-for i in range(a):
-    if i == 0:
-        print(" " * khoangtrangngoai + "*")
-    elif i < a-1:
-        print(" " * (khoangtrangngoai - 1) + "*" + " " * (khoangtrangtrong +1) + "*")
-        khoangtrangngoai -=1
-        khoangtrangtrong +=2
-    else:
+# a = int(input("Nhap a: "))
+# khoangtrangngoai = a -1
+# khoangtrangtrong = 0
+# for i in range(a):
+#     if i == 0:
+#         print(" " * khoangtrangngoai + "*")
+#     elif i < a-1:
+#         print(" " * (khoangtrangngoai - 1) + "*" + " " * (khoangtrangtrong +1) + "*")
+#         khoangtrangngoai -=1
+#         khoangtrangtrong +=2
+#     else:
         
-        print("*" * (a*2-1))
+#         print("*" * (a*2-1))
+#         # hohohohohohoh
+print("Hello")
